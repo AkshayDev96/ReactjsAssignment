@@ -1,10 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit'
 import shortid from 'shortid'
 
+
+//contains all the user list
 const initialState = {
     users:[]
 }
 
+
+//this is the reducer
 export const counterSlice = createSlice({
   name: 'userDetails',
   initialState,
